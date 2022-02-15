@@ -48,3 +48,33 @@
 .a-desc{
     font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+        height: 150vh;
+    }
+
+    .a-left{
+        width: 100%;
+
+    }
+
+    .a-card{
+        height: 40vh;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+    
+    .a-right{
+        padding: 20px;
+    }
+    .a-award{
+        margin-top: 30px;
+    }
+
+}

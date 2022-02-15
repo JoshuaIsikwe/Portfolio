@@ -75,6 +75,37 @@ button{
     padding: 10px;
     background-color: blueviolet;
     font-weight: 500;
-   color: white; 
-   cursor: pointer;
+    color: white; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper{
+    flex-direction: column; 
+    padding: 0px 50px;
+    }
+
+    .c-title{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .c-info-item{
+        margin: 20px 0px;
+    }
+
+    .c-desc{
+        display: none;
+    }
+    
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    button{
+        margin-top: 15px;
+    }
+    
 }

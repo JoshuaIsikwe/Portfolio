@@ -18,7 +18,6 @@
 
 .pl-desc{
     margin: 20px 0;
-
 }
 
 .pl-list{
@@ -26,4 +25,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width:480px) {
+    .pl{
+        padding: 10px;
+        overflow: hidden;
+        height: 60vh; /* Adjust when more projects are added(check other components as well)*/
+    }
+
+    .pl-texts{
+        width: 100%;
+    }
 }

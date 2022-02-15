@@ -5956,9 +5956,9 @@
   "version" "1.0.1"
 
 "minimatch@^3.0.4":
-  "integrity" "sha512-tUpxzX0VAzJHjLu0xUfFv1gwVp9ba3IOuRAVH2EGuRW8a5emA2FlACLqiT/lDVtS1W+TGNwqz3sWaNyLgDJWuw=="
-  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-3.0.5.tgz"
-  "version" "3.0.5"
+  "integrity" "sha512-reLxBcKUPNBnc/sVtAbxgRVFSegoGeLaSjmphNhcwcolhYLRgtJscn5mRl6YRZNQv40Y7P6JM2YhSIsbL9OB5A=="
+  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-3.1.1.tgz"
+  "version" "3.1.1"
   dependencies:
     "brace-expansion" "^1.1.7"
 

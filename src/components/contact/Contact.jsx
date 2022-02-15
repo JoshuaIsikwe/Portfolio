@@ -1,13 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import "../contact/contact.css"
 import Phone from "../../images/phone_2.png"
 import Email from "../../images/email_2.png"
+import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
     const formRef = useRef()
+    const[done, setDone] = useState(false)
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
 
-    const handleSubmit =(e)=>{
-      e.preventDefault()
+    const handleSubmit = (e) =>{
+      e.preventDefault();
+
+      emailjs.sendForm('service_bozgj9f', 'template_lweqiaw', formRef.current, 'user_eGkpHWjR9gfmUgDBb0u72')
+      .then((result) => {
+          console.log(result.text);
+          setDone(true)
+      }, (error) => {
+          console.log(error.text);
+      });
     }
   
   return (
@@ -33,11 +46,12 @@ const Contact = () => {
                   </p>
 
                   <form ref={formRef} onSubmit={handleSubmit}>
-                    <input type="text" placeholder='Name' name="user_name" />
-                    <input type="text" placeholder='Sub' name="user_subject" />
-                    <input type="text" placeholder='Email' name="user_email" />
-                    <textarea id="" cols="30" rows="5" placeholder='Message' name= "message"></textarea>
+                    <input style={{backgroundColor: darkMode && "rgb(1, 1, 92)"}} type="text" placeholder='Name' name="user_name" />
+                    <input style={{backgroundColor: darkMode && "rgb(1, 1, 92)"}} type="text" placeholder='Subject' name="user_subject" />
+                    <input style={{backgroundColor: darkMode && "rgb(1, 1, 92)"}} type="text" placeholder='Email' name="user_email" />
+                    <textarea id="" cols="30" rows="5" style={{backgroundColor: darkMode && "rgb(1, 1, 92)"}} placeholder='Message' name= "message"></textarea>
                     <button>Submit</button>
+                    {done && "Message has been sent :)"}
                   </form>
                 </div>
             </div>
