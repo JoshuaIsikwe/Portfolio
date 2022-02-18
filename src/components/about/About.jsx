@@ -1,6 +1,6 @@
 import React from 'react';
 import "../about/about.css"
-import Pic from "../../images/Tanjiro.jpg"
+import Pic from "../../images/certificate.jpg"
 
 const About = () => {
     
@@ -13,15 +13,15 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className='a-title'>About me</h1>
-                <p className='a-sub'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem temporibus mollitia nesciunt!</p>
-                <p className='a-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae sequi veniam saepe optio reiciendis aut, pariatur recusandae aperiam animi repudiandae delectus esse neque accusamus, perspiciatis quibusdam consequuntur fugiat commodi.</p>
+                <p className='a-sub'>I am an Honors Graduate of Information systems from the University of Johannesburg.</p>
+                <p className='a-desc'> I have been working in both finance and IT spaces for 3 years and have gained a lot of experience. Through that I have been tasked with reponsibilities where I have used agile development, project managment, research. I am also accustomed to leading teams to use scrum frameworks to achieve desired goal/product.</p>
                 <div className="a-award">
                     <img src={Pic} alt="" className='a-award-image' />
                     <div className="a-award-text">
                         <h4 className='a-award-title'> Software Design as an Abstraction</h4>
                         <p>University of Colorado System. September 2020</p>
-                        <h4 className='a-award-title'> Devops AWS</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor?</p>
+                        <h4 className='a-award-title'> DevOps on AWS Specialization</h4>
+                        <p>Amazon Web Services. February 2022</p>
                     </div>
                 </div>
             </div>
