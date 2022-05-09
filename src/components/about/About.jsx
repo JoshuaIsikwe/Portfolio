@@ -15,6 +15,8 @@ const About = () => {
                 <h1 className='a-title'>About me</h1>
                 <p className='a-sub'>I am an Honors Graduate of Information systems from the University of Johannesburg.</p>
                 <p className='a-desc'> I have been working in both finance and IT spaces for 3 years and have gained a lot of experience. Through that I have been tasked with reponsibilities where I have used agile development, project managment, research. I am also accustomed to leading teams to use scrum frameworks to achieve desired goal/product.</p>
+                <h4>Current stack</h4>
+                <p>HTML, CSS, Python, Javascript, C#, PHP, React, Angular </p>
                 <div className="a-award">
                     <img src={Pic} alt="" className='a-award-image' />
                     <div className="a-award-text">
