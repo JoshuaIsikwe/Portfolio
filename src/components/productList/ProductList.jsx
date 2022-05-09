@@ -7,7 +7,7 @@ const ProductList = () => {
   return <div className='pl'>
             <div className="pl-texts">
                 <h1 className='pl-title'>My Creations</h1>
-                <p className='pl-desc'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, aliquid!</p>
+                <p className='pl-desc'>Here are some of my works</p>
             </div>
             <div className='pl-list'>
                 {products.map(item=>(
