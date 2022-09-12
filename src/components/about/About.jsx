@@ -16,14 +16,14 @@ const About = () => {
                 <p className='a-sub'>I am an Honors Graduate of Information systems from the University of Johannesburg.</p>
                 <p className='a-desc'> I have been working in both finance and IT spaces for 3 years and have gained a lot of experience. Through that I have been tasked with reponsibilities where I have used agile development, project managment, research. I am also accustomed to leading teams to use scrum frameworks to achieve desired goal/product.</p>
                 <h4>Current stack</h4>
-                <p>HTML, CSS, Python, Javascript, C#, PHP, React, Angular </p>
+                <p>HTML, CSS, Python, Javascript, C#, PHP, React, NextJS, Vue, AWS </p>
                 <div className="a-award">
                     <img src={Pic} alt="" className='a-award-image' />
                     <div className="a-award-text">
                         <h4 className='a-award-title'> Software Design as an Abstraction</h4>
                         <p>University of Colorado System. September 2020</p>
                         <h4 className='a-award-title'> DevOps on AWS Specialization</h4>
-                        <p>Amazon Web Services. February 2022</p>
+                        <p>Amazon Web Services. June 2022</p>
                     </div>
                 </div>
             </div>

@@ -31,7 +31,7 @@
     .pl{
         padding: 10px;
         overflow: hidden;
-        height: 60vh; /* Adjust when more projects are added(check other components as well)*/
+        height: 80vh; /* Adjust when more projects are added(check other components as well)*/
     }
 
     .pl-texts{
