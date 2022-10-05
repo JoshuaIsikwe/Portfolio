@@ -2,13 +2,13 @@ export const products =[
 
     {
         id: 1,
-        img: "https://i.pinimg.com/474x/38/93/cf/3893cf8ceb0764b8a63bc8525e4529b9.jpg",
-        link: "https://test.novapago.com/",
+        img: "https://i.pinimg.com/474x/42/f9/ce/42f9cef4cfe54e1cfdf85e3025f44803.jpg",
+        link: "https://clemmeridian.com/",
     },
     {
         id: 2,
-        img: "https://i.pinimg.com/474x/38/93/cf/3893cf8ceb0764b8a63bc8525e4529b9.jpg",
-        link: "https://test.novapago.com/",
+        img: "https://i.pinimg.com/564x/b7/4f/4a/b74f4a0a368dab4773c509542ca130dd.jpg",
+        link: "https://clemmeridian.org/",
     },
     {
         id: 3,
@@ -16,8 +16,8 @@ export const products =[
         link: "https://www.jujunft.org/",
     },
     {
-        id: 5,
-        img: "https://i.pinimg.com/474x/42/f9/ce/42f9cef4cfe54e1cfdf85e3025f44803.jpg",
-        link: "https://clemmeridian.com/",
+        id: 4,
+        img: "https://i.pinimg.com/564x/78/9b/d2/789bd2d5693bb0e315741097ac7f47cd.jpg",
+        link: "https://clemmeridian.vercel.app/",
     },
 ]
