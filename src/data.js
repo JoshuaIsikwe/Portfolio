@@ -3,7 +3,7 @@ export const products =[
     {
         id: 1,
         img: "https://i.pinimg.com/474x/38/93/cf/3893cf8ceb0764b8a63bc8525e4529b9.jpg",
-        link: "https://test.novapago.com/",
+        link: "https://corp.novapago.com/",
     },
     {
         id: 2,
