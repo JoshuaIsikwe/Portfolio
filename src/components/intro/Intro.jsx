@@ -2,6 +2,7 @@ import React from 'react';
 import "./intro.css"
 import Me from "../../images/Closeup.jpg"
 
+
 const Intro = () => {
   return <div className='i'>
        <div className='i-left'>
